@@ -8,20 +8,26 @@
     <meta name="viewport" content="width=device, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
                     
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-    <h1 class="text-danger">Este es  un Header.!!!</h1>
+    <div class="container">
+        <div class="row">
+            <divclass="row">
+                <div class="customDiv">Column 1</div>
+            </div>
+            <div class="col-sm-6">
+                <div class="customDiv">Column 2</div>
+            </div>
+            <div class="col-sm-6">
+                <div class="customDiv">Column 3</div>
+            </div>
+            <div class="col-sm-6">
+                <div class="customDiv">Column 4</div>
+            </div>
+            
+        </div>
     </div>
-    </form>
-    
-    <p>
-       daskldasdjasljdklsajkldjklasjklj ljskdjkasjdkjasldjlasjldjlsajdlca ajkldjaskdjlasjdlalk   
-    </p>
-   <button class="btn btn-primary">Hola Emilio</button>
-
-
     <script src="scripts/jquery-2.2.3.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
 </body>
