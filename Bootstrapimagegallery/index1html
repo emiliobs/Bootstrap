@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap image gallery</title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="CustonStyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/cumputer.png" class="pull-right  img-thumbnail img-responsive" />
+
+                <b>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</b>
+                <h1>What are the advetages of using bootstrap</h1>
+
+                <p><b>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</b></p>
+                <p><b>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</b></p>
+                <p><b>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</b></p>
+                <p><b>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</b></p>
+                <p><b>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</b></p>
+
+             </div>
+        </div>
+    </div>
+
+    
+    <script src="scripts/bootstrap.min.js"></script>
+</body>
+</html>

@@ -13,19 +13,22 @@
 <body>
     <div class="container">
         <div class="row">
-            <divclass="row">
+          
+               <img src="img/j3.jpg"  class="col-md-4 col-md-offset-4 img-responsive img-rounded" />  
+           
+           
+        </div>
+        <br />
+        <div class="row">    
+            <div class="col-md-4">        
                 <div class="customDiv">Column 1</div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <div class="customDiv">Column 2</div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <div class="customDiv">Column 3</div>
-            </div>
-            <div class="col-sm-6">
-                <div class="customDiv">Column 4</div>
-            </div>
-            
+            </div>                        
         </div>
     </div>
     <script src="scripts/jquery-2.2.3.min.js"></script>
