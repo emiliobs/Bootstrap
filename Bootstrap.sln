@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapimagegallery", "Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap3responsiveutilityclasses", "Bootstrap3responsiveutilityclasses\Bootstrap3responsiveutilityclasses.csproj", "{FDAF16D1-29D2-49A3-B6D7-CBADB2C414C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstraptypography", "Bootstraptypography\Bootstraptypography.csproj", "{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FDAF16D1-29D2-49A3-B6D7-CBADB2C414C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDAF16D1-29D2-49A3-B6D7-CBADB2C414C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDAF16D1-29D2-49A3-B6D7-CBADB2C414C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
