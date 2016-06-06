@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap3responsiveutility
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstraptypography", "Bootstraptypography\Bootstraptypography.csproj", "{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockQuote", "BlockQuote\BlockQuote.csproj", "{EE7F3E90-9376-456D-A885-991636DC9D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListGroup", "ListGroup\ListGroup.csproj", "{0017F2D8-E0ED-4F9C-A999-E90C5F1FB42A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C4D2D0B-C7E9-471D-AF3B-74AC0126DE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7F3E90-9376-456D-A885-991636DC9D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7F3E90-9376-456D-A885-991636DC9D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7F3E90-9376-456D-A885-991636DC9D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7F3E90-9376-456D-A885-991636DC9D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0017F2D8-E0ED-4F9C-A999-E90C5F1FB42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0017F2D8-E0ED-4F9C-A999-E90C5F1FB42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0017F2D8-E0ED-4F9C-A999-E90C5F1FB42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0017F2D8-E0ED-4F9C-A999-E90C5F1FB42A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
