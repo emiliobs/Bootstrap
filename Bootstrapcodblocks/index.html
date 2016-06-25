@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap code blocks</title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p>asjhfjksahdfjkashjkfhasjkfhjk<code>&lt;emilio&gt;</code>ddddd</p>
+                <p>sdsdssssssssssszinasssssssss<code>&lt;gggg&gt;</code>sssssssss</p>
+                <p>dasjdaskjfkadkslfjldslkfjkl<code>&lt;strong&gt;</code>ddddd</p>
+
+                <pre>
+                <p>asjhfjksahdfjkashjkfhasjkfhjk&lt;emilio&gt;ddddd</p>
+                <p>sdsdssssssssssszinasssssssss<code>&lt;gggg&gt;</code>sssssssss</p>
+                <p>dasjdaskjfkadkslfjldslkfjkl<code>&lt;strong&gt;</code>ddddd</p>
+                            </pre>
+
+
+                <pre class="pre-scrollable"> public class Program
+{
+    public static void Main()
+    {
+        Customer customer1 = new Customer()
+        {
+            ID = 101,
+            Name = "Mark",
+            Salary = 5000
+        };
+        Customer customer2 = new Customer()
+        {
+            ID = 102,
+            Name = "Pam",
+            Salary = 7000
+        };
+        Customer customer3 = new Customer()
+        {
+            ID = 104,
+            Name = "Rob",
+            Salary = 5500
+        };
+        Customer[] arrayCustomers = new Customer[2];
+        arrayCustomers[0] = customer1;
+        arrayCustomers[1] = customer2;
+       
+        List<customer> listCustomers = new List<customer>(2);
+        listCustomers.Add(customer1);
+        listCustomers.Add(customer2);
+        listCustomers.Add(customer3);
+        Customer cust = listCustomers[0];
+        Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+                           cust.ID, cust.Name, cust.Salary);
+        Console.WriteLine("--------------------------------");
+       
+        for (int i = 0; i < listCustomers.Count; i++)
+        {
+            Customer customer = listCustomers[i];
+            Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+                     customer.ID, customer.Name, customer.Salary);
+        }
+        Console.WriteLine("--------------------------------");
+       
+        foreach (Customer c in listCustomers)
+        {
+            Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+                                c.ID, c.Name, c.Salary);
+        }
+        Console.WriteLine("--------------------------------");
+       
+        listCustomers.Insert(1, customer3);
+        Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+               listCustomers[1].ID, listCustomers[1].Name,
+               listCustomers[1].Salary);
+        Console.WriteLine("--------------------------------");
+       
+        Console.WriteLine("Index of Customer3 object in the List = "
+                           + listCustomers.IndexOf(customer3));
+        Console.WriteLine("--------------------------------");
+    }
+}  </pre>
+
+                var <var>fullaname</var> = <var>firstname</var> + <var>lastname</var>
+
+                <h4>OutPut</h4>
+                <samp>Hello Emilio Barrera......</samp>
+
+                <h4>Visual Studio</h4>
+                <p>
+                    Keyboard shorcut for commnting code.
+                    <kbd>CTRL</kbd> <kbd>K</kbd> and <kbd>CTRL</kbd> <kbd>C</kbd>
+                </p>
+                <p>
+                    Keyboard shorcut for uncommenting code
+                    <kbd>CTRL</kbd> <kbd> and </kbd> <kbd> CTRL </kbd> <kbd>U</kbd>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
