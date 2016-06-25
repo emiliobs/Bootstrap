@@ -27,6 +27,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapicons", "Bootstrap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapdropdown", "Bootstrapdropdown\Bootstrapdropdown.csproj", "{01E58CA3-D38B-4716-A33F-DB074C0FC524}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapbuttongroup", "Bootstrapbuttongroup\Bootstrapbuttongroup.csproj", "{2917CE34-EE74-4A19-8400-A17BF11F68EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapsplitbuttondropdown", "Bootstrapsplitbuttondropdown\Bootstrapsplitbuttondropdown.csproj", "{C945640D-139B-4EFD-9C2D-74F20F4B7291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapforms", "Bootstrapforms\Bootstrapforms.csproj", "{14CA439D-47F1-4959-B9B6-00D36A62E183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapformcontrols", "Bootstrapformcontrols\Bootstrapformcontrols.csproj", "{2563FD1E-3082-487A-ADE4-D2E4B9D69F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapformvalidationstates", "Bootstrapformvalidationstates\Bootstrapformvalidationstates.csproj", "{691B3D5A-616C-458C-BAAE-732EBE63E122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +91,26 @@ Global
 		{01E58CA3-D38B-4716-A33F-DB074C0FC524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E58CA3-D38B-4716-A33F-DB074C0FC524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E58CA3-D38B-4716-A33F-DB074C0FC524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2917CE34-EE74-4A19-8400-A17BF11F68EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2917CE34-EE74-4A19-8400-A17BF11F68EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2917CE34-EE74-4A19-8400-A17BF11F68EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2917CE34-EE74-4A19-8400-A17BF11F68EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C945640D-139B-4EFD-9C2D-74F20F4B7291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C945640D-139B-4EFD-9C2D-74F20F4B7291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C945640D-139B-4EFD-9C2D-74F20F4B7291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C945640D-139B-4EFD-9C2D-74F20F4B7291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CA439D-47F1-4959-B9B6-00D36A62E183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CA439D-47F1-4959-B9B6-00D36A62E183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CA439D-47F1-4959-B9B6-00D36A62E183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CA439D-47F1-4959-B9B6-00D36A62E183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2563FD1E-3082-487A-ADE4-D2E4B9D69F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2563FD1E-3082-487A-ADE4-D2E4B9D69F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2563FD1E-3082-487A-ADE4-D2E4B9D69F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2563FD1E-3082-487A-ADE4-D2E4B9D69F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691B3D5A-616C-458C-BAAE-732EBE63E122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691B3D5A-616C-458C-BAAE-732EBE63E122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691B3D5A-616C-458C-BAAE-732EBE63E122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691B3D5A-616C-458C-BAAE-732EBE63E122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

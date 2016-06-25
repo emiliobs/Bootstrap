@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap form validation states</title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <br />
+                <form class="form-horizontal">
+                    <div class="form-group has-success has-feedback">
+                        <label class="col-lg-2 control-label" for="password">Password</label>
+                        <div class="col-lg-10">
+                            <input  type="password" id="password" class="form-control" placeholder="Your Password."/>
+                            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                            <span class="help-block">Strong Password</span>
+                        </div>
+                    </div>
+                    <div class="form-group has-warning has-feedback">
+                        <label class="col-lg-2 control-label" for="password">Password</label>
+                        <div class="col-lg-10">
+                            <input type="password" id="password" class="form-control" placeholder="Your Password." />
+                            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                            <span class="help-block">Wak Password</span>
+                        </div>
+                    </div>
+                    <div class="form-group has-error has-feedback">
+                        <label class="col-lg-2 control-label" for="age">Age</label>
+                        <div class="col-lg-10">
+                            <input type="text" id="password" class="form-control" placeholder="Age." />
+                            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                            <span class="help-block">Invalid Age</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <br />
+                <form class="form-horizontal">
+                    <div class="form-group has-success has-feedback">
+                        <label class="col-lg-2 control-label" for="In">Income</label>
+                        <div class="col-lg-10">
+                            <div class="input-group">
+                                <span class="input-group-addon">$</span>
+                                <input type="password" id="In" class="form-control" placeholder="Your Annual Income." />
+                            </div>                           
+                            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                            <span class="help-block">Success</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group has-warning has-feedback">
+                        <label class="col-lg-2 control-label" for="password">Income</label>
+                        <div class="col-lg-10">
+                            <div class="input-group">
+                                <span class="input-group-addon">$</span>
+                                <input type="password" id="password" class="form-control" placeholder="Your Annual Income." />
+                            </div>                            
+                            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                            <span class="help-block">Warning</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group has-error has-feedback">
+                        <label class="col-lg-2 control-label" for="age">Income</label>
+                        <div class="col-lg-10">
+                            <div class="input-group">
+                                <span class="input-group-addon">$</span>
+                                <input type="text" id="password" class="form-control" placeholder="Your Annual Income." />
+                            </div>                            
+                            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                            <span class="help-block">Error</span>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

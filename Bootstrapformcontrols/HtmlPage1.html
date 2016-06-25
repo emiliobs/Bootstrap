@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap form controls</title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <br />
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input class="form-control" type="text" id="inputName" placeholder="Full Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDOB">Date of Birth</label>
+                        <input class="form-control" type="date" id="inputDOB" placeholder="dd/mm/yyyy" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input readonly class="form-control" type="email" id="inputEmail" placeholder="Email address" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputExperience">Work Experience</label>
+                        <input class="form-control" type="number" id="inputExperience" placeholder="Total Experience in year" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputUrl">Personal Web Side</label>
+                        <input readonly class="form-control" type="url" id="inputUrl" placeholder="Your Webside address" />
+                    </div>
+
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="radioGroup" value="1" />Option 1
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="radioGroup" value="2" />Option 2
+                            </label>
+                        </div>
+                        <div class="radio disabled">
+                            <label>
+                                <input type="radio" name="radioGroup" value="3" disabled />Option 3
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group disabled">
+                        <label class="radio-inline">
+                            <input type="radio" name="radioGroup" value="1" />Option 1
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="radioGroup" value="2" />Option 2
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="radioGroup" disabled value="3" />Option 3
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger">Login.</button>
+                </form>
+
+
+            </div>
+            <div class="col-lg-6">
+                <br />
+                <form>
+                    <div class="form-group">
+                        <label for="inputdescription">Product Description</label>
+                        <textarea class="form-control" rows="10" id="inputdescription" placeholder="Full product Description."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="option1" />
+                                Option 1
+                            </label>
+                        </div>
+                        <div class="checkbox disabled">
+                            <label>
+                                <input readonly disabled type="checkbox" value="option2" />
+                                Option 2
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input readonly type="checkbox" value="option3" />
+                                Option 3
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="option1" />
+                            Option 1
+                        </label>
+
+
+                        <label class="checkbox-inline">
+                            <input disabled type="checkbox" value="option2" />
+                            Option 2
+                        </label>
+
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="option3" />
+                            Option 3
+                        </label>
+
+                    </div>
+                    <div class="form-group">
+                        <select multiple class="form-control">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                            <option>Option 4</option>
+                            <option>Option 5</option>
+
+                        </select>
+                    </div>
+
+
+                    <br />
+                    <fieldset disabled>
+                        <div class="form-group disabled">
+                            <label for="txtName">Name</label>
+                            <input type="tel" class="form-control" id="txtName" placeholder="your full name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="selectGender">Gender</label>
+                           <select id="selectGender" class="form-control">
+                               <option>Male</option>
+                               <option>Female</option>
+                           </select>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input  type="checkbox"/>I agree
+                            </label>
+                        </div>
+                    </fieldset>
+            
+
+            <button type="submit" class="btn btn-info">Login</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
