@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{7F7543E7-96B1-41F3-B493-4BA195784BD7}"
 EndProject
@@ -36,6 +36,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapformcontrols", "Bootstrapformcontrols\Bootstrapformcontrols.csproj", "{2563FD1E-3082-487A-ADE4-D2E4B9D69F85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapformvalidationstates", "Bootstrapformvalidationstates\Bootstrapformvalidationstates.csproj", "{691B3D5A-616C-458C-BAAE-732EBE63E122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapformcontrolsheightandwidth", "Bootstrapformcontrolsheightandwidth\Bootstrapformcontrolsheightandwidth.csproj", "{106F4CB9-C685-4684-A09C-982E35577797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapinputgroups", "Bootstrapinputgroups\Bootstrapinputgroups.csproj", "{AC58B195-D600-44F5-95B2-EC02F3E77319}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{691B3D5A-616C-458C-BAAE-732EBE63E122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{691B3D5A-616C-458C-BAAE-732EBE63E122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{691B3D5A-616C-458C-BAAE-732EBE63E122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106F4CB9-C685-4684-A09C-982E35577797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106F4CB9-C685-4684-A09C-982E35577797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106F4CB9-C685-4684-A09C-982E35577797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106F4CB9-C685-4684-A09C-982E35577797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC58B195-D600-44F5-95B2-EC02F3E77319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC58B195-D600-44F5-95B2-EC02F3E77319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC58B195-D600-44F5-95B2-EC02F3E77319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC58B195-D600-44F5-95B2-EC02F3E77319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
