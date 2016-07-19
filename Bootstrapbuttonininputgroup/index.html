@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap button in input group</title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <br />
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <input type="radio" />
+                        </span>
+                        <input type="text" class="form-control" placeholder="Default" />
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default">Search.</button>
+                        </span>
+                        <input type="text" class="form-control" placeholder="" />
+                    </div>
+                    <br />
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" placeholder="" />
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default">Search.</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" />
+                        <div class="input-group-btn">
+                            <button type="button" data-toggle="dropdown"
+                                    class="btn btn-default dropdown-toggle">
+                                Dropdown
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action 1</a></li>
+                                <li><a href="#">Action 2</a></li>
+                                <li><a href="#">Action 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" />
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-primary">Action.</button>
+                            <button type="button" data-toggle="dropdown"
+                                    class="btn btn-default dropdown-toggle">
+                               
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action 1</a></li>
+                                <li><a href="#">Action 2</a></li>
+                                <li><a href="#">Action 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Default." />
+                        <div class="input-group-btn">                            
+                            <button type="button" class="btn btn-danger">Cut.</button>
+                            <button type="button" class="btn btn-info">Copy.</button>
+                            <button type="button" class="btn btn-primary">Paste.</button>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Default." />
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-align-left"></span>
+                            </button>
+                            <button type="button" class="btn btn-info">
+                                <span class="glyphicon glyphicon-align-center"></span>
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-align-right"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    
+   
+
+   
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>
