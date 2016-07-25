@@ -1,0 +1,14 @@
+﻿.breadcrumb > li + li:before 
+{
+    content:"|";
+
+}
+.breadcrumb {
+  
+  background-color: #ffd800;
+  
+}
+
+.breadcrumb > .active {
+  color: #ff0000;
+}
